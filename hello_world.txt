@@ -1,0 +1,2 @@
+testing and understanding git and github.
+hopefully i can commit this process to my memory!
