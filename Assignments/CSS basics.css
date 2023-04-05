@@ -1,0 +1,40 @@
+* /* the asterisk or * is the universal selector */ {
+    color:black;
+}
+
+/* type selectors such as the two below select the named element */
+
+div {
+    color: blue;
+}
+p {
+    color: white;
+}
+
+/* class selectors will select elements within a given class (html attribute) 
+    the syntax requires a period immediately followed by the case sensitive value of the class attribute
+*/
+
+.alert {
+    color: red;
+}
+.stinky {
+    font-size: large;
+}
+/* ID selectors are similar to class selectors
+    they are unique and can only be used for one element
+    instead of a period they being with a #
+*/
+
+#bigalert {
+    color: yellow;
+}
+
+/* id and class selectors can be chained */
+
+.alert.stinky {
+    font-weight: bolder;
+}
+.stinky#bigalert {
+    font-style: italic;
+}
