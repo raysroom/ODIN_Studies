@@ -1,0 +1,12 @@
+.container {
+    border: 4px solid antiquewhite;
+    display: flex;
+}
+
+.one {
+    flex: 1;
+}
+
+.three {
+    flex: 1;
+}

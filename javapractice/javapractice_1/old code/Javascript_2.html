@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+    <p id="zmath"></p>
+    <p id="x-1"></p>
+    <p id="y"></p>
+    <p id="x_y"></p>
+    <p id="ex"></p>
+  <script>
+    let z = 100 - 22;
+    document.getElementById("zmath").innerHTML = z;
+    let a = 200
+      , b = 130
+      , x = a - b;
+    document.getElementById("x-1").innerHTML = x;
+    let c = 10
+      , d = 22
+      , e = 4
+      , y = c * d / (e + a);
+    document.getElementById("y").innerHTML = y;
+    let x_1 = 1e12;
+    let y_1 = 32e-3;
+    document.getElementById("x_y").innerHTML = x_1 + "<br>" + y_1;
+    let x2 = "3";
+    let y2 = "5";
+    let xy2 = x2 + y2;
+    document.getElementById("ex").innerHTML = xy2;
+
+    const anInt = 10;
+    const aFloat = 6.667;
+    anInt;
+    aFloat;
+    typeof anInt;
+    typeof aFloat;
+  </script>
+</body>
+</html>
